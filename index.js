@@ -23,5 +23,6 @@ function calculate(){
     return txt
 }
 
+calculate() // ini
 // calculation listener
 tip.onchange=bill.onkeyup=calculate
