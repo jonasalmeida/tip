@@ -17,7 +17,7 @@ function calculate(){
     txt.value = `\n -- integer tip --`
     txt.value += `\n`
     txt.value += `\n Bill: $${bill.value}`
-    txt.value += `\n Tip: $${extra}`
+    txt.value += `\n  Tip: $${extra}`
     txt.value += `\n`
     txt.value += `\n Total: $${parseFloat(bill.value)+extra}`
     return txt
