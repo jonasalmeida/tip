@@ -1,7 +1,7 @@
 console.log(`loaded index.js \n ${Date()}`)
 
 // tip options
-const pCs=[0,5,10,15,20,25]
+const pCs=[0,5,10,15,20,25,30,33.333,50]
 pCs.forEach(pc=>{
     console.log(pc)
     opt = document.createElement('option')
